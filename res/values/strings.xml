@@ -5341,6 +5341,7 @@
     <string name="menu_ribbon_reset">Reset ribbon</string>
     <string name="menu_ribbon_rearrange">Rearrange ribbon</string>
 
+
     <!-- Lockscreen Targets-->
     <string name="lockscreen_targets_title">Lockscreen targets</string>
     <string name="lockscreen_targets_summary">Lockscreen targets summary…</string>
