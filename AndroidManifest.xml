@@ -1540,6 +1540,7 @@
         <activity android:name=".carbon.LockscreenInterface" />
         <activity android:name=".carbon.LockscreenButtons" />
         <activity android:name=".carbon.LockscreenShortcuts" />
+        <activity android:name=".carbon.Lockscreens" />
         <activity android:name=".carbon.Navbar" />
         <activity android:name=".carbon.NavRingTargets" />
         <activity android:name=".carbon.NotificationDrawerStyle" />
@@ -1549,6 +1550,7 @@
         <activity android:name=".carbon.PowerMenu" />
         <activity android:name=".carbon.PowerWidget" />
         <activity android:name=".carbon.RamBar" />
+        <activity android:name=".carbon.RibbonTargets" />
         <activity android:name=".carbon.StatusBar" />
         <activity android:name=".carbon.StatusBarBattery" />
         <activity android:name=".carbon.StatusBarClockStyle" />
@@ -1678,16 +1680,6 @@
         <activity android:name=".notificationlight.BatteryLightSettings" />
 
         <activity android:name=".ApnEditor" />
-
-        <activity
-            android:name=".carbon.NavRingTargets"
-            android:label="@string/title_navring" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-        </activity>
 
         <!-- Carbon Activities End -->
 
