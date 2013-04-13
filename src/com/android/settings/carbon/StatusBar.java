@@ -120,6 +120,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         mStatusBarAutoHide = (CheckBoxPreference) prefSet.findPreference(STATUS_BAR_AUTO_HIDE);
         mStatusBarAutoHide.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
         Settings.System.AUTO_HIDE_STATUSBAR, 0) == 1));
+                Settings.System.AUTO_HIDE_STATUSBAR, 0) == 1));
 
         mPrefCategoryGeneral = (PreferenceCategory) findPreference(STATUS_BAR_CATEGORY_GENERAL);
 
@@ -186,6 +187,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
             return true;
         } else if (preference == mStatusBarAutoHide) {
              value = mStatusBarAutoHide.isChecked();
+            value = mStatusBarAutoHide.isChecked();
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.AUTO_HIDE_STATUSBAR, value ? 1 : 0);
             return true;
