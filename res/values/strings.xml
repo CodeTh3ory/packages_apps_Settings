@@ -5847,6 +5847,7 @@
     <string name="sound_lock_volume_keys_title">Lock volume keys</string>
     <string name="sound_lock_volume_keys_summary">Prevents accidental unset of silent mode by pressing volume keys</string>
 
+    <!-- Notification sound to vibration conversion -->
     <string name="vibration_title">Phone vibration</string>
     <string name="notification_convert_sound_to_vibration_title">Notification conversion</string>
     <string name="notification_convert_sound_to_vibration_summary">Sounds to vibrations during vibrate mode</string>
@@ -5885,6 +5886,10 @@
     <string name="header_summary_date">Global Timezone Settings</string>
     <string name="header_summary_access">Enable Accessibility Options</string>
     <string name="header_summary_info">Detailed Device Info</string>
+
+    <!-- Auto-Hide Status Bar -->
+    <string name="auto_hide_statusbar">Auto Hide statusbar</string>
+    <string name="auto_hide_statusbar_summary">Statusbar hides itself when there are no notifications</string>
 
     <!-- **** CODEX ADDITIONS END **** -->
 </resources>

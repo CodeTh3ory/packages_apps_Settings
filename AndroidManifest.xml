@@ -1555,7 +1555,7 @@
         <activity android:name=".carbon.StatusBarToggles" />
 
         <activity android:name="Settings$CarbonSettingsActivity"
-                android:label="@string/carbon_settings_title"
+                android:label="@string/codex_settings_title"
                 android:taskAffinity=""
                 android:excludeFromRecents="true">
             <intent-filter>
