@@ -5542,7 +5542,7 @@
     <string name="expanded_desktop_both_hidden">Hide navigation and status bar</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="advanced_settings_title">Advanced</string>
+    <string name="advanced_settings_title">Device Specific Options</string>
 
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
@@ -5887,6 +5887,7 @@
     <string name="header_summary_date">Global Timezone Settings</string>
     <string name="header_summary_access">Enable Accessibility Options</string>
     <string name="header_summary_info">Detailed Device Info</string>
+    <string name="header_summary_addevice">Additional Device Options</string>
 
     <!-- Auto-Hide Status Bar -->
     <string name="auto_hide_statusbar">Auto Hide statusbar</string>
