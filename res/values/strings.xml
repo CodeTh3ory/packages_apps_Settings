@@ -888,7 +888,7 @@
     <string name="lock_pattern_size_6">6x6</string>
 
     <!-- Lockscreen Camera widget toggle -->
-    <string name="lockscreen_camera_widget_title">Camera widget</string>
+    <string name="lockscreen_camera_widget_title">Camera Widget</string>
 
     <!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
     <string name="unlock_disable_lock_title">Turn off screen lock</string>
@@ -5856,6 +5856,7 @@
 
     <string name="header_summary_development">Additional ROM Settings</string>
     <string name="header_summary_powermenu">Setup Power Menu</string>
+    <string name="header_summary_camerawidget">Option To Show Camera Widget</string>
     <string name="header_su">Integrated SuperUser Options</string>
     <string name="header_summary_sys">Sytem Interface Options</string>
     <string name="header_summary_system_settings">CodeX Modifier Options</string>
@@ -5864,7 +5865,7 @@
     <string name="header_summary_qt">QuickToggle Options</string>
     <string name="header_summary_statusbar">Status Bar Settings</string>
     <string name="header_summary_themes">Apply Additional Themes</string>
-    <string name="header_summary_burn">Toggle Burn UI</string>
+    <string name="header_summary_burn">Enable Full Burn UI</string>
     <string name="header_summary_lockscreen">Setup Your LockScreen</string>
     <string name="header_summary_pie">Pie Modifiers</string>
     <string name="header_summary_profiles">Setup Your UserProfiles</string>

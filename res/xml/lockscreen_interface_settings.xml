@@ -123,6 +123,7 @@
 
     <CheckBoxPreference
         android:key="lockscreen_camera_widget"
-        android:title="@string/lockscreen_camera_widget_title" />
+        android:title="@string/lockscreen_camera_widget_title"
+        android:summary="@string/header_summary_camerawidget" />
 
 </PreferenceScreen>
