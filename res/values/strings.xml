@@ -5527,7 +5527,7 @@
     <!-- Power menu enable disable -->
     <string name="power_menu_reboot_title">Reboot Menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_torch_title">Torch</string>
+    <string name="power_menu_torch_title">LED Light</string>
     <string name="power_menu_expanded_desktop">Expanded Desktop</string>
     <string name="power_menu_profiles_title">Profile Switcher</string>
     <string name="power_menu_airplane_title">Airplane Mode</string>
@@ -5613,7 +5613,7 @@
     <string name="title_tile_brightness">Brightness</string>
     <string name="title_tile_sleep">Go To Sleep</string>
     <string name="title_tile_gps">GPS</string>
-    <string name="title_tile_torch">Torch</string>
+    <string name="title_tile_torch">LED Light</string>
     <string name="title_tile_lockscreen">Lockscreen</string>
     <string name="title_tile_lte">LTE</string>
     <string name="title_tile_mobiledata">Mobile Data</string>
@@ -5818,8 +5818,8 @@
     <string name="alt_resolver_summary">Use Alternate Default App Picker</string>
 
     <!-- Power button torch -->
-    <string name="power_button_torch_title">Power button torch</string>
-    <string name="power_button_torch_summary">WARNING: This feature may not work well for devices with nonremovable batteries and Nexus devices. Use at your own risk! Hold power key with screen off to enable torch. Release to disable.</string>
+    <string name="power_button_torch_title">Power button LED Light</string>
+    <string name="power_button_torch_summary">WARNING: This feature may not work well for devices with nonremovable batteries and Nexus devices. Use at your own risk! Hold power key with screen off to enable LED Light. Release to disable.</string>
 
     <!-- Automatic brightness customization -->
     <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>
