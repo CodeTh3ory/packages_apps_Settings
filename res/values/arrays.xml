@@ -1976,6 +1976,7 @@
         <item>5</item>
         <item>6</item>
         <item>8</item>
+    </string-array>
     <string-array name="lockscreen_dialog_entries" translatable="false">
         <item>@string/none</item>
         <item>@string/lockscreen_unlock</item>
@@ -2330,6 +2331,9 @@
         <item>**app**</item>
         <item>**null**</item>
     </string-array>
+
+
+    <!-- Custom toggle double-actions -->
     <string-array name="ribbon_icon_size_entries" translatable="false">
         <item>@string/icon_size_normal</item>
         <item>@string/icon_size_20</item>
@@ -2350,4 +2354,6 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- **** CARBON EDITS END **** -->
 </resources>
