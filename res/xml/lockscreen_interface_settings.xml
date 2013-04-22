@@ -17,14 +17,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/themes_settings_title" >
 
-     <PreferenceScreen
-        android:key="screen_security"
-        android:fragment="com.android.settings.SecuritySettings"
-        android:title="@string/screen_security_category"
-        android:summary="@string/screen_security_summary">
-        <extra android:name="carbon_security" android:value="true" />
-     </PreferenceScreen>
-
      <ListPreference
         android:key="lockscreen_background"
         android:persistent="false"
