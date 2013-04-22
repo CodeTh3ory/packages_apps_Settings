@@ -1541,6 +1541,7 @@
         <activity android:name=".carbon.LockscreenButtons" />
         <activity android:name=".carbon.LockscreenShortcuts" />
         <activity android:name=".carbon.Lockscreens" />
+
         <activity android:name=".carbon.Navbar" />
         <activity android:name=".carbon.NavRingTargets" />
         <activity android:name=".carbon.NotificationDrawerStyle" />
