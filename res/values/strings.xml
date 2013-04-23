@@ -5413,11 +5413,15 @@
 
 
    <!-- Ribbon -->
+    <string name="ribbon_dialog_arrange_title">Ribbon layout</string>
     <string name="ribbon_instructions">Press icon to select actions or delete</string>
     <string name="ribbon_targets_cat">Ribbon options</string>
     <string name="enable_ribbon_text_title">Show app name</string>
     <string name="enable_ribbon_vibrate_title">Vibrate on touch of swipe area</string>
     <string name="enable_ribbon_text_summary">Enable the app name text below the icon</string>
+    <string name="ribbon_icon_vibrate_title">Vibrate on target click</string>
+    <string name="ribbon_icon_space_title">Horizontal ribbon spacing</string>
+    <string name="ribbon_icon_space_vertical_title">Vertical ribbon spacing</string>
     <string name="ribbon_icon_size_title">Icon size</string>
     <string name="ribbon_icon_size_summary">Set size of your icons</string>
     <string name="ribbon_lockscreen">Lockscreen ribbon</string>
@@ -5447,6 +5451,8 @@
     <string name="ribbon_settings_title">Ribbons</string>
     <string name="ribbon_settings_summary">Configure Ribbons</string>
     <string name="title_ribbon">Ribbon Options</string>
+    <string name="menu_ribbon_reset">Reset ribbon</string>
+    <string name="menu_ribbon_rearrange">Rearrange ribbon</string>
 
     <!-- Lockscreen Targets-->
     <string name="lockscreen_targets_title">Lockscreen targets</string>
