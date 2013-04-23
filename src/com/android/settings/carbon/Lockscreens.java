@@ -89,6 +89,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
     private Switch mLockMinimizeChallangeSwitch;
     private Switch mLockCarouselSwitch;
     private Switch mLockCameraSwitch;
+    private Switch mLockSeeThroughSwitch;
     private Switch mLockAllWidgetsSwitch;
     private Button mLockTextColorButton;
 
@@ -100,6 +101,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
     private TextView mLockMinimizeChallangeText;
     private TextView mLockCarouselText;
     private TextView mLockCameraText;
+    private TextView mLockSeeThroughText;
     private TextView mLockAllWidgetsText;
 
     private ShortcutPickerHelper mPicker;
@@ -303,6 +305,19 @@ public class Lockscreens extends SettingsPreferenceFragment implements
                     }
                 });
 
+        mLockSeeThroughText = ((TextView) getActivity().findViewById(R.id.lockscreen_see_through_id));
+        mLockSeeThroughText.setOnClickListener(mLockSeeThroughTextListener);
+        mLockSeeThroughSwitch = (Switch) getActivity().findViewById(R.id.lockscreen_see_through_switch);
+        mLockSeeThroughSwitch
+                .setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton v, boolean checked) {
+                        Settings.System.putBoolean(cr,
+                                Settings.System.LOCKSCREEN_SEE_THROUGH, checked);
+                        updateSwitches();
+                    }
+                });
+
         mLongPressText = ((TextView) getActivity()
                 .findViewById(R.id.lockscreen_target_longpress_id));
         mLongPressText.setOnClickListener(mLongPressTextListener);
@@ -388,10 +403,16 @@ public class Lockscreens extends SettingsPreferenceFragment implements
     private TextView.OnClickListener mLockCameraTextListener = new TextView.OnClickListener() {
         public void onClick(View v) {
             createMessage(
-                    getResources().getString(
-                            R.string.lockscreen_camera_widget_title),
-                    getResources().getString(
-                            R.string.lockscreen_camera_widget_summary));
+                    getResources().getString(R.string.lockscreen_camera_widget_title),
+                    getResources().getString(R.string.lockscreen_camera_widget_summary));
+        }
+    };
+
+    private TextView.OnClickListener mLockSeeThroughTextListener = new TextView.OnClickListener() {
+        public void onClick(View v) {
+            createMessage(
+                    getResources().getString(R.string.lockscreen_see_through_title),
+                    getResources().getString(R.string.lockscreen_see_through_summary));
         }
     };
 
@@ -410,6 +431,8 @@ public class Lockscreens extends SettingsPreferenceFragment implements
                 Settings.System.LOCKSCREEN_USE_WIDGET_CONTAINER_CAROUSEL, false));
         mLockCameraSwitch.setChecked(Settings.System.getBoolean(cr,
                 Settings.System.KG_CAMERA_WIDGET, false));
+        mLockSeeThroughSwitch.setChecked(Settings.System.getBoolean(cr,
+                Settings.System.LOCKSCREEN_SEE_THROUGH, false));
     }
 
 
@@ -822,6 +845,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
             mLockMinimizeChallangeSwitch.setVisibility(View.VISIBLE);
             mLockCarouselSwitch.setVisibility(View.VISIBLE);
             mLockCameraSwitch.setVisibility(View.VISIBLE);
+            mLockSeeThroughSwitch.setVisibility(View.VISIBLE);
             mLockAllWidgetsSwitch.setVisibility(View.VISIBLE);
             mLongPressText.setVisibility(View.VISIBLE);
             mLockBatteryText.setVisibility(View.VISIBLE);
@@ -830,6 +854,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
             mLockMinimizeChallangeText.setVisibility(View.VISIBLE);
             mLockCarouselText.setVisibility(View.VISIBLE);
             mLockCameraText.setVisibility(View.VISIBLE);
+            mLockSeeThroughText.setVisibility(View.VISIBLE);
             mLockAllWidgetsText.setVisibility(View.VISIBLE);
             mLockTextColorText.setVisibility(View.VISIBLE);
             mLockTextColorButton.setVisibility(View.VISIBLE);
@@ -842,6 +867,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
             mLockMinimizeChallangeSwitch.setVisibility(View.GONE);
             mLockCarouselSwitch.setVisibility(View.GONE);
             mLockCameraSwitch.setVisibility(View.GONE);
+            mLockSeeThroughSwitch.setVisibility(View.GONE);
             mLockAllWidgetsSwitch.setVisibility(View.GONE);
             mLongPressText.setVisibility(View.GONE);
             mLockBatteryText.setVisibility(View.GONE);
@@ -850,6 +876,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
             mLockMinimizeChallangeText.setVisibility(View.GONE);
             mLockCarouselText.setVisibility(View.GONE);
             mLockCameraText.setVisibility(View.GONE);
+            mLockSeeThroughText.setVisibility(View.GONE);
             mLockAllWidgetsText.setVisibility(View.GONE);
             mLockTextColorText.setVisibility(View.GONE);
             mLockTextColorButton.setVisibility(View.GONE);
