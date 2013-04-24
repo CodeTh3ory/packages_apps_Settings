@@ -1709,7 +1709,7 @@
         <item>@string/circle_battery_w_percent</item>
         <item>@string/circle_dotted_w_percent</item>
         <item>@string/speed_battery</item>
-        <item>@string/square_battery</item>
+        <item>@string/stub_battery</item>
         <item>@string/gear_battery</item>
         <item>@string/cm_battery</item>
         <item>@string/dont_show</item>
