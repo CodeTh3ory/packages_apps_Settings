@@ -82,7 +82,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
     public static final String TAG = "InterfaceSettings";
     private static final String PREF_CUSTOM_CARRIER_LABEL = "custom_carrier_label";
     private static final String KEY_RECENTS_RAM_BAR = "recents_ram_bar";
-    private static final String KEY_DUAL_PANE = "dual_pane";
     private static final String PREF_WAKEUP_WHEN_PLUGGED_UNPLUGGED = "wakeup_when_plugged_unplugged";
     private static final String PREF_NOTIFICATION_SHOW_WIFI_SSID = "notification_show_wifi_ssid";
     private static final String PREF_POWER_CRT_SCREEN_ON = "system_power_crt_screen_on";
@@ -96,7 +95,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
     Preference mCustomLabel;
     Preference mRamBar;
     Preference mLcdDensity;
-    CheckBoxPreference mDualPane;
     CheckBoxPreference mWakeUpWhenPluggedOrUnplugged;
     CheckBoxPreference mShowWifiName;
     CheckBoxPreference mCrtOff;
@@ -176,13 +174,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
         mUserModeUI.setValue(Integer.toString(Settings.System.getInt(cr,
                 Settings.System.USER_UI_MODE, uiMode)));
         mUserModeUI.setOnPreferenceChangeListener(this);
-
-        mDualPane = (CheckBoxPreference) findPreference(KEY_DUAL_PANE);
-        boolean preferDualPane = getResources().getBoolean(
-                com.android.internal.R.bool.preferences_prefer_dual_pane);
-        boolean dualPaneMode = Settings.System.getInt(cr,
-                Settings.System.DUAL_PANE_PREFS, (preferDualPane ? 1 : 0)) == 1;
-        mDualPane.setChecked(dualPaneMode);
 
         mLowBatteryWarning = (ListPreference) findPreference(KEY_LOW_BATTERY_WARNING_POLICY);
         int lowBatteryWarning = Settings.System.getInt(getActivity().getContentResolver(),
@@ -278,11 +269,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
         } else if (preference == mLcdDensity) {
             ((PreferenceActivity) getActivity())
             .startPreferenceFragment(new DensityChanger(), true);
-            return true;
-        } else if (preference == mDualPane) {
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.DUAL_PANE_PREFS,
-                    ((CheckBoxPreference) preference).isChecked() ? 1 : 0);
             return true;
         } else if (preference == mHideExtras) {
             Settings.System.putBoolean(mContext.getContentResolver(),
