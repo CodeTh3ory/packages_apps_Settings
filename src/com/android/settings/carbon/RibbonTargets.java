@@ -1,4 +1,3 @@
-
 package com.android.settings.carbon;
 
 import java.net.URISyntaxException;
