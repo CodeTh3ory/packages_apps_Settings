@@ -70,7 +70,6 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.util.Helpers;
