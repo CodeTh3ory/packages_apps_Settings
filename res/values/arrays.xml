@@ -2340,7 +2340,6 @@
         <item>@string/home</item>
         <item>@string/back</item>
         <item>@string/recents</item>
-        <item>@string/recents_gb</item>
         <item>@string/lastapp</item>
         <item>@string/search</item>
         <item>@string/menu</item>
