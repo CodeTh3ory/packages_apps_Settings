@@ -5423,7 +5423,7 @@
     <string name="ribbon_lockscreen">Lockscreen ribbon</string>
     <string name="ribbon_notifications">Notifications ribbon</string>
     <string name="ribbon_quicksettings">Quick settings ribbon</string>
-    <string name="ribbon_swipe">AOKP swipe ribbon</string>
+    <string name="ribbon_swipe">Swipe ribbon</string>
     <string name="clone_title">Choose ribbon to clone</string>
     <string name="icon_size_normal">Normal</string>
     <string name="icon_size_20">Medium</string>
@@ -5444,8 +5444,8 @@
     <string name="center">Centered</string>
     <string name="top">Top</string>
     <string name="bottom">Bottom</string>
-    <string name="ribbon_settings_title">Ribbon options</string>
-    <string name="ribbon_settings_summary">@null</string>
+    <string name="ribbon_settings_title">Ribbons</string>
+    <string name="ribbon_settings_summary">Configure Ribbons</string>
     <string name="title_ribbon">Ribbon Options</string>
 
     <!-- Lockscreen Targets-->
