@@ -367,7 +367,6 @@
 
     <!-- **** CYANOGENMOD EDITS END **** -->
 
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="timezone_filters">
         <item>Америка</item>
