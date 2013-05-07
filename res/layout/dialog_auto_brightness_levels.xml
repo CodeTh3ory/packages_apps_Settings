@@ -51,3 +51,14 @@
                 android:contentDescription="@string/wifi_menu_more_options" />
 
         </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_container"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

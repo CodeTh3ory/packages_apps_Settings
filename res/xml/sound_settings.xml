@@ -40,7 +40,9 @@
 
     <Preference
             android:key="musicfx"
-            android:title="@string/musicfx_title" />
+            android:title="@string/musicfx_title">
+            <intent android:targetPackage="com.android.musicfx"
+                android:targetClass="com.android.musicfx.ControlPanelPicker" />
     </Preference>
 
     <!-- Quiet hours -->
@@ -122,7 +124,7 @@
         android:title="@string/sound_lock_volume_keys_title"
         android:summary="@string/sound_lock_volume_keys_summary"
         android:persistent="false" />
-		
+
     <CheckBoxPreference
             android:key="swap_volume_buttons"
             android:title="@string/swap_volume_keys_title"
