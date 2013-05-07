@@ -55,10 +55,7 @@ import com.android.settings.ProxySelector;
 import com.android.settings.R;
 
 import java.net.InetAddress;
-<<<<<<< HEAD
-=======
 import java.net.Inet6Address;
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 import java.util.Iterator;
 
 /**
@@ -435,8 +432,6 @@ public class WifiConfigController implements TextWatcher,
         return true;
     }
 
-<<<<<<< HEAD
-=======
     private InetAddress numericToInet4Address(String addrString)
             throws IllegalArgumentException {
         // We need IPv4 for 'legacy' wireless networking static address assignments
@@ -447,7 +442,6 @@ public class WifiConfigController implements TextWatcher,
         return inetAddr;
     }
 
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     private int validateIpConfigFields(LinkProperties linkProperties) {
         if (mIpAddressView == null) return 0;
 
@@ -456,11 +450,7 @@ public class WifiConfigController implements TextWatcher,
 
         InetAddress inetAddr = null;
         try {
-<<<<<<< HEAD
-            inetAddr = NetworkUtils.numericToInetAddress(ipAddr);
-=======
             inetAddr = numericToInet4Address(ipAddr);
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
         } catch (IllegalArgumentException e) {
             return R.string.wifi_ip_settings_invalid_ip_address;
         }
@@ -492,11 +482,7 @@ public class WifiConfigController implements TextWatcher,
         } else {
             InetAddress gatewayAddr = null;
             try {
-<<<<<<< HEAD
-                gatewayAddr = NetworkUtils.numericToInetAddress(gateway);
-=======
                 gatewayAddr = numericToInet4Address(gateway);
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
             } catch (IllegalArgumentException e) {
                 return R.string.wifi_ip_settings_invalid_gateway;
             }
@@ -511,11 +497,7 @@ public class WifiConfigController implements TextWatcher,
             mDns1View.setText(mConfigUi.getContext().getString(R.string.wifi_dns1_hint));
         } else {
             try {
-<<<<<<< HEAD
-                dnsAddr = NetworkUtils.numericToInetAddress(dns);
-=======
                 dnsAddr = numericToInet4Address(dns);
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
             } catch (IllegalArgumentException e) {
                 return R.string.wifi_ip_settings_invalid_dns;
             }
@@ -525,11 +507,7 @@ public class WifiConfigController implements TextWatcher,
         if (mDns2View.length() > 0) {
             dns = mDns2View.getText().toString();
             try {
-<<<<<<< HEAD
-                dnsAddr = NetworkUtils.numericToInetAddress(dns);
-=======
                 dnsAddr = numericToInet4Address(dns);
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
             } catch (IllegalArgumentException e) {
                 return R.string.wifi_ip_settings_invalid_dns;
             }
