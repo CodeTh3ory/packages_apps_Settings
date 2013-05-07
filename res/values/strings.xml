@@ -4506,7 +4506,7 @@
     <string name="header_category_codex_links">CODEX CONTROL PANEL</string>
     <string name="codex_settings_title">CodeX System Interface</string>
     <string name="codex_settings_title_menu">CodeX Modifiers</string>
-    <string name="performance_title">CPU Control</string>
+    <string name="performance_title">CPU Performance</string>
     <string name="themes_settings_title">Theme Chooser</string>
 
     <!-- CodeX Settings (submenu) -->
@@ -4517,22 +4517,6 @@
     <string name="power_widget_title">Quick Toggles</string>
     <string name="status_bar_title">Statusbar Mods</string>
     <string name="toggles_title">QuickSettings Tile Settings</string>
-    <!-- Carbon Links  -->
-    <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
-    <string name="header_category_carbon_links">Carbon</string>
-    <string name="carbon_settings_title">Carbon Rom</string>
-    <string name="carbon_settings_title_menu">Customize Carbon</string>
-    <string name="performance_title">Performance</string>
-    <string name="themes_settings_title">Themes</string>
-
-    <!-- Carbon Settings (submenu) -->
-    <string name="interface_title">Interface</string>
-    <string name="lock_screen_title">Lockscreen</string>
-    <string name="navbar_title">Navigation</string>
-    <string name="power_menu_title">Power Menu</string>
-    <string name="power_widget_title">Power Widget</string>
-    <string name="status_bar_title">Statusbar</string>
-    <string name="toggles_title">Statusbar Toggles</string>
 
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
@@ -5954,6 +5938,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="header_summary_development">Additional ROM Settings</string>
     <string name="header_summary_powermenu">Setup Power Menu</string>
     <string name="header_summary_camerawidget">Option To Show Camera Widget</string>
+    <string name="header_perms">System Wide Permissions</string>
     <string name="header_su">Integrated SuperUser Options</string>
     <string name="header_summary_sys">Sytem Interface Options</string>
     <string name="header_summary_system_settings">CodeX Modifier Options</string>

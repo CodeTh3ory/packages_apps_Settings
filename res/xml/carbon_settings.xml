@@ -31,6 +31,13 @@
         android:title="@string/ribbon_settings_title"
         android:summary="@string/ribbon_settings_summary" />
 
+    <!-- Navbar -->
+    <PreferenceScreen
+        android:id="@+id/nav_bar"
+        android:title="@string/navbar_title"
+        android:summary="@string/header_summary_navbar"
+        android:fragment="com.android.settings.carbon.Navbar" />
+
     <!-- Quicksettings Tiles -->
     <PreferenceScreen
         android:id="@+id/statusbar_toggles"
@@ -52,28 +59,18 @@
         android:summary="@string/header_summary_statusbar"
         android:fragment="com.android.settings.carbon.StatusBar" />
 
-    <!-- Statusbar Toggles -->
-    <PreferenceScreen
-        android:id="@+id/statusbar_toggles"
-        android:title="@string/toggles_title"
-        android:fragment="com.android.settings.carbon.StatusBarToggles" />
-
-    <!-- Navigation -->
-    <PreferenceScreen
-        android:id="@+id/nav_bar"
-        android:title="@string/navbar_title"
-        android:fragment="com.android.settings.carbon.Navbar" />
-
     <!-- Lockscreen -->
     <PreferenceScreen
         android:id="@+id/lock_screen_settings"
         android:title="@string/lock_screen_title"
+        android:summary="@string/header_summary_lockscreen"
         android:fragment="com.android.settings.carbon.Lockscreens" />
 
     <!-- Powermenu -->
     <PreferenceScreen
         android:id="@+id/power_menu_settings"
         android:title="@string/power_menu_title"
+        android:summary="@string/header_summary_powermenu"
         android:fragment="com.android.settings.carbon.PowerMenu" />
 
 </PreferenceScreen>
