@@ -37,7 +37,6 @@
     <string name="device_info_default">Unknown</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-<<<<<<< HEAD
         <item quantity="one">Tap <xliff:g id="step_count">%1$d</xliff:g> more times to enable Advanced Settings.</item>
         <item quantity="other">Tap <xliff:g id="step_count">%1$d</xliff:g> more times to enable Advanced Settings.</item>
     </plurals>
@@ -55,7 +54,6 @@
     <string name="header_category_personal">PERSONAL FEATURES</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">SYSTEM SETTINGS</string>
-=======
         <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
     </plurals>
@@ -73,7 +71,6 @@
     <string name="header_category_personal">PERSONAL</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">SYSTEM</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <!-- Phone info -->
     <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
@@ -908,11 +905,7 @@
     <string name="lock_pattern_size_6">6x6</string>
 
     <!-- Lockscreen Camera widget toggle -->
-<<<<<<< HEAD
     <string name="lockscreen_camera_widget_title">Camera Widget</string>
-=======
-    <string name="lockscreen_camera_widget_title">Camera widget</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
     <string name="unlock_disable_lock_title">Turn off screen lock</string>
@@ -1938,11 +1931,7 @@
     <!-- About phone screen,  setting option name-->
     <string name="kernel_version">Kernel version</string>
     <!-- About phone screen,  setting option name-->
-<<<<<<< HEAD
     <string name="build_number">Compiled Package</string>
-=======
-    <string name="build_number">Build number</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
@@ -2384,11 +2373,7 @@
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
     <string name="about_settings" product="tablet">About tablet</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-<<<<<<< HEAD
     <string name="about_settings" product="default">About Device</string>
-=======
-    <string name="about_settings" product="default">About phone</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- Main settings screen, setting summary for the user to go into the About phone screen-->
     <string name="about_settings_summary">View legal info, status, software version</string>
     <!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
@@ -3048,11 +3033,7 @@
     <string name="builtin_keyboard_settings_summary">Physical keyboard settings</string>
 
     <!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
-<<<<<<< HEAD
     <string name="development_settings_title">Advanced Settings</string>
-=======
-    <string name="development_settings_title">Developer options</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
     <string name="development_settings_summary">Set options for app development</string>
     <!-- Setting checkbox title for Whether to enable Android debugging support on the phone. -->
@@ -4476,37 +4457,6 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
-<<<<<<< HEAD
-    <!-- **** CODEX ADDITIONS **** -->
-=======
-    <!-- **** CARBON ADDITIONS START **** -->
-
-    <!-- About Carbon -->
-    <string name="about_carbon_settings_title">About CarbonRom</string>
-    <string name="about_carbon_title">CarbonRom</string>
-    <string name="app_name">CarbonRom</string>
-    <string name="carbon_dev">CarbonDev</string>
-    <string name="contributors_title">Contributors</string>
-    <string name="devs_title">Meet the CarbonDev team</string>
-    <string name="donate_carbon">http://goo.gl/2Nieg</string>
-    <string name="github_carbon">https://github.com/CarbonDev</string>
-    <string name="carbon">CarbonRom JB 4.2.2</string>
-    <string name="carbon_links">Social media</string>
-    <string name="carbon_goo_title">Goo.im download page</string>
-    <string name="carbon_goo_summary">Visit our Goo.im download page for the latest builds</string>
-    <string name="carbon_source_title">Github Sources</string>
-    <string name="carbon_source_summary">Open source for all to see @ www.github.com/CarbonDev</string>
-    <string name="carbon_irc_title">Join us on IRC</string>
-    <string name="carbon_irc_summary">#teamcarbon @ irc.freenode.net</string>
-    <string name="carbon_facebook_title">Facebook Page</string>
-    <string name="carbon_facebook_summary">Subscribe to our Facebook page</string>
-    <string name="carbon_twitter_title">Twitter Handle</string>
-    <string name="carbon_twitter_summary">Follow us on Twitter</string>
-    <string name="carbon_googleplus_title">Google+ Community</string>
-    <string name="carbon_googleplus_summary">Join our G+ Community</string>
-    <string name="title_about">About Carbon</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
-
     <string name="ok">OK</string>
     <string name="save">Save</string>
 
@@ -4515,11 +4465,7 @@
     <string name="title_navring">Navigation Ring</string>
 
     <!-- Quiet hours -->
-<<<<<<< HEAD
     <string name="quiet_hours_title">Smart Hours</string>
-=======
-    <string name="quiet_hours_title">Quiet hours</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
     <string name="quiet_hours_note_summary">Incoming calls will behave like usual during quiet hours</string>
@@ -4560,7 +4506,6 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- About phone screen,  setting option name-->
-<<<<<<< HEAD
     <string name="mod_version">CodeX Build Info</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
@@ -4568,20 +4513,10 @@
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">Processor</string>
-=======
-    <string name="mod_version">Carbon version</string>
-    <string name="mod_version_default">Unknown</string>
-    <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Build date</string>
-    <string name="build_date_default">2012-01-01-0000</string>
-    <!-- About device screen, Cpu info. -->
-    <string name="cpu_info">CPU</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
-<<<<<<< HEAD
     <!-- CodeX Links  -->
     <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
     <string name="header_category_codex_links">CODEX CONTROL PANEL</string>
@@ -4598,7 +4533,6 @@
     <string name="power_widget_title">Quick Toggles</string>
     <string name="status_bar_title">Statusbar Mods</string>
     <string name="toggles_title">QuickSettings Tile Settings</string>
-=======
     <!-- Carbon Links  -->
     <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
     <string name="header_category_carbon_links">Carbon</string>
@@ -4615,7 +4549,6 @@
     <string name="power_widget_title">Power Widget</string>
     <string name="status_bar_title">Statusbar</string>
     <string name="toggles_title">Statusbar Toggles</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>

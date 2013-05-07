@@ -364,12 +364,6 @@
     <item>Сингапур</item>
     <item>Бразилия</item>
   </string-array>
-
-    <!-- **** CYANOGENMOD EDITS END **** -->
-
-=======
-<?xml version="1.0" encoding="utf-8"?>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 <resources>
     <string-array name="timezone_filters">
         <item>Америка</item>

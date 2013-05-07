@@ -3783,34 +3783,10 @@ android.permission.ACCESS_SUPERUSER
     <string name="user_picture_title">Документ с фото</string>
     <string name="cell_broadcast_settings">Широковещательная передача</string>
     <string name="cell_broadcast_settings_summary">Выберите типы экстренных оповещений на экране.</string>
-    <string name="about_carbon_settings_title">О CarbonRom</string>
-    <string name="about_carbon_title">CarbonRom</string>
-    <string name="app_name">CarbonRom</string>
-    <string name="carbon_dev">CarbonDev</string>
-    <string name="contributors_title">Участники</string>
-    <string name="devs_title">Знакомьтесь с командой CarbonDev</string>
-    <string name="donate_carbon">http://goo.gl/2Nieg</string>
-    <string name="github_carbon">https://github.com/CarbonDev</string>
-    <string name="carbon">CarbonRom JB 4.2.2</string>
-    <string name="carbon_links">Социальные сети</string>
-    <string name="carbon_goo_title">Страница загрузок Goo.im </string>
-    <string name="carbon_goo_summary">Посетите нашу страницу на Goo.im для загрузки последних сборок</string>
-    <string name="carbon_source_title">Исходники на Github</string>
-    <string name="carbon_source_summary">Открытые исходники для всех @ www.github.com/CarbonDev</string>
-    <string name="carbon_irc_title">Присоединяйтесь по IRC</string>
-    <string name="carbon_irc_summary">\#teamcarbon @ irc.freenode.net</string>
-    <string name="carbon_facebook_title">Страница Facebook</string>
-    <string name="carbon_facebook_summary">Подпишитесь на нашу страницу в Facebook</string>
-    <string name="carbon_twitter_title">Twitter </string>
-    <string name="carbon_twitter_summary">Следуйте за нами на Twitter</string>
-    <string name="carbon_googleplus_title">Сообщество Google+ </string>
-    <string name="carbon_googleplus_summary">Присоединяйтесь к нашему сообществу G+</string>
-    <string name="title_about">О Carbon</string>
     <string name="ok">OK</string>
     <string name="save">Сохранить</string>
     <string name="title_navbar">Навигация</string>
     <string name="title_navring">Кольцо навигации</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <string name="quiet_hours_title">Тихие часы</string>
     <string name="quiet_hours_summary">Настройка часов, когда устройство должно быть тихим</string>
     <string name="quiet_hours_note_title">Примечание</string>
@@ -5198,7 +5174,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="lockscreen_long_press_back_title">Длит. нажатие кнопки \"Назад\"</string>
     <string name="lockscreen_long_press_home_title">Длит. нажатие кнопки \"Домой\"</string>
     <string name="lockscreen_long_press_menu_title">Длит. нажатие кнопки \"Меню\"</string>
->>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <string name="lockscreen_buttons_no_action">Нет действия</string>
     <string name="lockscreen_buttons_flashlight">Фонарик</string>
     <string name="lockscreen_buttons_next">Следующий трек</string>
