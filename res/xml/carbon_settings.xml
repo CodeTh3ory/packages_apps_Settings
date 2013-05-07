@@ -59,6 +59,16 @@
         android:summary="@string/header_summary_statusbar"
         android:fragment="com.android.settings.carbon.StatusBar" />
 
+     <!-- Clock Widget -->
+     <PreferenceScreen
+        android:key="lock_clock"
+        android:title="@string/lock_clock_title"
+        android:summary="@string/lock_clock_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.lockclock"
+                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
+     </PreferenceScreen>
+
     <!-- Lockscreen -->
     <PreferenceScreen
         android:id="@+id/lock_screen_settings"
