@@ -4516,7 +4516,7 @@
     <string name="power_menu_title">Powermenu Switches</string>
     <string name="power_widget_title">Quick Toggles</string>
     <string name="status_bar_title">Statusbar Mods</string>
-    <string name="toggles_title">QuickSettings Tile Settings</string>
+    <string name="toggles_title">Quick Tiles</string>
 
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
