@@ -5142,7 +5142,7 @@
     <string name="custom_density_dialog_button_reboot">Reboot Now</string>
 
     <!-- Statusbar | Toggles -->
-    <string name="title_statusbar_toggles">Quick Toggles</string>
+    <string name="title_statusbar_toggles">Quick Tiles</string>
     <string name="toggle_style_title">Toggle style</string>
     <string name="toggle_style_summary">Whether to show icons or text on your toggles.</string>
     <string name="toggles_layout_title">Toggle Layout</string>

@@ -50,7 +50,7 @@
         android:id="@+id/power_widget_settings"
         android:title="@string/power_widget_title"
         android:summary="@string/header_summary_qt"
-        android:fragment="com.android.settings.carbon.InterfaceSettings" />
+        android:fragment="com.android.settings.carbon.PowerWidget" />
 
     <!-- Statusbar -->
     <PreferenceScreen
