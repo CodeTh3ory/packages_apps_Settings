@@ -281,6 +281,14 @@
         android:summary="@string/header_summary_access"
         android:title="@string/accessibility_settings" />
 
+    <!-- Superuser -->
+    <header
+        android:id="@+id/superuser"
+        android:fragment="com.koushikdutta.superuser.PolicyNativeFragment"
+        android:icon="@drawable/ic_action_permission"
+        android:summary="@string/header_su"
+        android:title="@string/superuser" />
+
     <!-- Permissions Management -->
     <header
         android:id="@+id/permissions_settings"
@@ -292,14 +300,6 @@
             android:targetPackage="org.chameleonos.permissionsmanager"
             android:targetClass="org.chameleonos.permissionsmanager.activity.PermissionManagerActivity" />
     </header>
-
-    <!-- Superuser -->
-    <header
-        android:id="@+id/superuser"
-        android:fragment="com.koushikdutta.superuser.PolicyNativeFragment"
-        android:icon="@drawable/ic_action_permission"
-        android:summary="@string/header_su"
-        android:title="@string/superuser" />
 
     <!-- About Device -->
     <header
