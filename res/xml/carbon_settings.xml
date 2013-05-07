@@ -24,6 +24,13 @@
         android:summary="@string/header_summary_sys"
         android:fragment="com.android.settings.carbon.InterfaceSettings" />
 
+    <!-- Ribbons -->
+    <PreferenceScreen
+        android:id="@+id/ribbon_targets"
+        android:fragment="com.android.settings.carbon.RibbonTargets"
+        android:title="@string/ribbon_settings_title"
+        android:summary="@string/ribbon_settings_summary" />
+
     <!-- Quicksettings Tiles -->
     <PreferenceScreen
         android:id="@+id/statusbar_toggles"
@@ -36,14 +43,7 @@
         android:id="@+id/power_widget_settings"
         android:title="@string/power_widget_title"
         android:summary="@string/header_summary_qt"
-        android:fragment="com.android.settings.carbon.PowerWidget" />
-
-    <!-- Ribbons -->
-    <PreferenceScreen
-        android:id="@+id/ribbon_targets"
-        android:fragment="com.android.settings.carbon.RibbonTargets"
-        android:title="@string/ribbon_settings_title"
-        android:summary="@string/ribbon_settings_summary" />
+        android:fragment="com.android.settings.carbon.InterfaceSettings" />
 
     <!-- Statusbar -->
     <PreferenceScreen
@@ -52,31 +52,28 @@
         android:summary="@string/header_summary_statusbar"
         android:fragment="com.android.settings.carbon.StatusBar" />
 
+    <!-- Statusbar Toggles -->
+    <PreferenceScreen
+        android:id="@+id/statusbar_toggles"
+        android:title="@string/toggles_title"
+        android:fragment="com.android.settings.carbon.StatusBarToggles" />
+
     <!-- Navigation -->
     <PreferenceScreen
         android:id="@+id/nav_bar"
         android:title="@string/navbar_title"
-        android:summary="@string/header_summary_navbar"
         android:fragment="com.android.settings.carbon.Navbar" />
-
-    <!-- Powerwidget -->
-    <PreferenceScreen
-        android:id="@+id/power_widget_settings"
-        android:title="@string/power_widget_title"
-        android:fragment="com.android.settings.carbon.PowerWidget" />
 
     <!-- Lockscreen -->
     <PreferenceScreen
         android:id="@+id/lock_screen_settings"
         android:title="@string/lock_screen_title"
-        android:icon="@drawable/ic_carbon_lockscreen"
         android:fragment="com.android.settings.carbon.Lockscreens" />
 
     <!-- Powermenu -->
     <PreferenceScreen
         android:id="@+id/power_menu_settings"
         android:title="@string/power_menu_title"
-        android:summary="@string/header_summary_powermenu"
         android:fragment="com.android.settings.carbon.PowerMenu" />
 
 </PreferenceScreen>

@@ -1632,9 +1632,9 @@
         <item>@*android:drawable/ic_shortcut_camera</item>
         <item>@*android:drawable/ic_shortcut_cloud</item>
         <item>@*android:drawable/ic_shortcut_contact</item>
-        <item>@*android:drawable/ic_shortcut_drive</item>
         <item>@*android:drawable/ic_shortcut_directdial</item>
         <item>@*android:drawable/ic_shortcut_directmessage</item>
+        <item>@*android:drawable/ic_shortcut_drive</item>
         <item>@*android:drawable/ic_shortcut_dropbox</item>
         <item>@*android:drawable/ic_shortcut_email</item>
         <item>@*android:drawable/ic_shortcut_email2</item>
@@ -2255,6 +2255,19 @@
         <item>3</item>
     </string-array>
 
+    <!-- MediaScanner behavior on boot -->
+    <string-array name="media_scanner_on_boot_entries">
+        <item>@string/media_scanner_on_boot_enabled</item>
+        <item>@string/media_scanner_on_boot_ask</item>
+        <item>@string/media_scanner_on_boot_disabled</item>
+    </string-array>
+
+    <string-array name="media_scanner_on_boot_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Custom toggle quantity -->
     <string-array name="custom_toggle_qty_entries" translatable="false">
         <item>1</item>
@@ -2332,7 +2345,6 @@
         <item>**null**</item>
     </string-array>
 
-
     <!-- Custom toggle double-actions -->
     <string-array name="ribbon_icon_size_entries" translatable="false">
         <item>@string/icon_size_normal</item>
@@ -2355,5 +2367,19 @@
         <item>2</item>
     </string-array>
 
-    <!-- **** CARBON EDITS END **** -->
+    <!-- Hidden Statusbar Pulldown -->
+    <string-array name="hidden_statusbar_pulldown_timeout_entries" translatable="false">
+        <item>2.5 seconds</item>
+        <item>5 seconds</item>
+        <item>7.5 seconds</item>
+        <item>10 seconds</item>
+    </string-array>
+    <string-array name="hidden_statusbar_pulldown_timeout_values" translatable="false">
+        <item>2500</item>
+        <item>5000</item>
+        <item>7500</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- **** CODEX EDITS END **** -->
 </resources>

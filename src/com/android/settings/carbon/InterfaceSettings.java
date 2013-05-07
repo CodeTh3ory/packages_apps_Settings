@@ -23,7 +23,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URISyntaxException;
-import java.util.Random;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -70,10 +69,10 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.util.Helpers;
-import com.android.settings.util.CMDProcessor;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.notificationlight.ColorPickerView;
 import com.android.settings.widgets.AlphaSeekBar;
@@ -119,7 +118,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
     private File mWallpaperImage;
     private File mWallpaperTemporary;
 
-    Random randomGenerator = new Random();
 
     String mCustomLabelText = null;
 

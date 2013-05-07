@@ -1,5 +1,3 @@
-
-
 /**
  * Copyright (C) 2007 The Android Open Source Project
  *
@@ -246,4 +244,3 @@ public class UsageStats extends Activity implements OnItemSelectedListener {
         // do nothing
     }
 }
-

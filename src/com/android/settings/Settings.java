@@ -126,7 +126,6 @@ public class Settings extends PreferenceActivity
             R.id.about_settings,
             R.id.launcher_settings,
             R.id.accessibility_settings,
-            R.id.carbon_section
     };
 
     private SharedPreferences mDevelopmentPreferences;
@@ -463,6 +462,7 @@ public class Settings extends PreferenceActivity
                 } else {
                     target.remove(header);
                 }
+
             } else if (id == R.id.wifi_settings) {
                 // Remove WiFi Settings if WiFi service is not available.
                 if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_WIFI)) {
@@ -499,6 +499,10 @@ public class Settings extends PreferenceActivity
                 // target.remove(i);
                 // }
             } else if (id == R.id.superuser) {
+                if (!DevelopmentSettings.isRootForAppsEnabled()) {
+                    target.remove(i);
+                }
+            } else if (id == R.id.permissions_settings) {
                 if (!DevelopmentSettings.isRootForAppsEnabled()) {
                     target.remove(i);
                 }

@@ -37,6 +37,7 @@
     <string name="device_info_default">Unknown</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
+<<<<<<< HEAD
         <item quantity="one">Tap <xliff:g id="step_count">%1$d</xliff:g> more times to enable Advanced Settings.</item>
         <item quantity="other">Tap <xliff:g id="step_count">%1$d</xliff:g> more times to enable Advanced Settings.</item>
     </plurals>
@@ -54,6 +55,25 @@
     <string name="header_category_personal">PERSONAL FEATURES</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">SYSTEM SETTINGS</string>
+=======
+        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
+        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
+    </plurals>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on">You have enabled development settings!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already">No need, you have already enabled development settings.</string>
+
+    <!-- Category headings in left-pane header menu --> <skip />
+    <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
+    <string name="header_category_wireless_networks">WIRELESS &amp; NETWORKS</string>
+    <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
+    <string name="header_category_device">DEVICE</string>
+    <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
+    <string name="header_category_personal">PERSONAL</string>
+    <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
+    <string name="header_category_system">SYSTEM</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <!-- Phone info -->
     <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
@@ -888,7 +908,11 @@
     <string name="lock_pattern_size_6">6x6</string>
 
     <!-- Lockscreen Camera widget toggle -->
+<<<<<<< HEAD
     <string name="lockscreen_camera_widget_title">Camera Widget</string>
+=======
+    <string name="lockscreen_camera_widget_title">Camera widget</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
     <string name="unlock_disable_lock_title">Turn off screen lock</string>
@@ -1691,7 +1715,7 @@
     <!-- Sound settings screen, volume title -->
     <string name="all_volume_title">Volumes</string>
     <!-- Sound settings screen, music effects title [CHAR LIMIT=30]-->
-    <string name="musicfx_title">Music effects</string>
+    <string name="musicfx_title">DSP Manager</string>
     <!-- Sound settings screen, setting option name -->
     <string name="ring_volume_title">Ringer volume</string>
     <!-- Sound settings screen, setting option name checkbox -->
@@ -1914,7 +1938,11 @@
     <!-- About phone screen,  setting option name-->
     <string name="kernel_version">Kernel version</string>
     <!-- About phone screen,  setting option name-->
+<<<<<<< HEAD
     <string name="build_number">Compiled Package</string>
+=======
+    <string name="build_number">Build number</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
@@ -2356,7 +2384,11 @@
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
     <string name="about_settings" product="tablet">About tablet</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+<<<<<<< HEAD
     <string name="about_settings" product="default">About Device</string>
+=======
+    <string name="about_settings" product="default">About phone</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- Main settings screen, setting summary for the user to go into the About phone screen-->
     <string name="about_settings_summary">View legal info, status, software version</string>
     <!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
@@ -3016,7 +3048,11 @@
     <string name="builtin_keyboard_settings_summary">Physical keyboard settings</string>
 
     <!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
+<<<<<<< HEAD
     <string name="development_settings_title">Advanced Settings</string>
+=======
+    <string name="development_settings_title">Developer options</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
     <string name="development_settings_summary">Set options for app development</string>
     <!-- Setting checkbox title for Whether to enable Android debugging support on the phone. -->
@@ -4440,7 +4476,36 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
+<<<<<<< HEAD
     <!-- **** CODEX ADDITIONS **** -->
+=======
+    <!-- **** CARBON ADDITIONS START **** -->
+
+    <!-- About Carbon -->
+    <string name="about_carbon_settings_title">About CarbonRom</string>
+    <string name="about_carbon_title">CarbonRom</string>
+    <string name="app_name">CarbonRom</string>
+    <string name="carbon_dev">CarbonDev</string>
+    <string name="contributors_title">Contributors</string>
+    <string name="devs_title">Meet the CarbonDev team</string>
+    <string name="donate_carbon">http://goo.gl/2Nieg</string>
+    <string name="github_carbon">https://github.com/CarbonDev</string>
+    <string name="carbon">CarbonRom JB 4.2.2</string>
+    <string name="carbon_links">Social media</string>
+    <string name="carbon_goo_title">Goo.im download page</string>
+    <string name="carbon_goo_summary">Visit our Goo.im download page for the latest builds</string>
+    <string name="carbon_source_title">Github Sources</string>
+    <string name="carbon_source_summary">Open source for all to see @ www.github.com/CarbonDev</string>
+    <string name="carbon_irc_title">Join us on IRC</string>
+    <string name="carbon_irc_summary">#teamcarbon @ irc.freenode.net</string>
+    <string name="carbon_facebook_title">Facebook Page</string>
+    <string name="carbon_facebook_summary">Subscribe to our Facebook page</string>
+    <string name="carbon_twitter_title">Twitter Handle</string>
+    <string name="carbon_twitter_summary">Follow us on Twitter</string>
+    <string name="carbon_googleplus_title">Google+ Community</string>
+    <string name="carbon_googleplus_summary">Join our G+ Community</string>
+    <string name="title_about">About Carbon</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <string name="ok">OK</string>
     <string name="save">Save</string>
@@ -4450,7 +4515,11 @@
     <string name="title_navring">Navigation Ring</string>
 
     <!-- Quiet hours -->
+<<<<<<< HEAD
     <string name="quiet_hours_title">Smart Hours</string>
+=======
+    <string name="quiet_hours_title">Quiet hours</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
     <string name="quiet_hours_note_summary">Incoming calls will behave like usual during quiet hours</string>
@@ -4491,6 +4560,7 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- About phone screen,  setting option name-->
+<<<<<<< HEAD
     <string name="mod_version">CodeX Build Info</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
@@ -4498,10 +4568,20 @@
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">Processor</string>
+=======
+    <string name="mod_version">Carbon version</string>
+    <string name="mod_version_default">Unknown</string>
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
+<<<<<<< HEAD
     <!-- CodeX Links  -->
     <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
     <string name="header_category_codex_links">CODEX CONTROL PANEL</string>
@@ -4518,6 +4598,24 @@
     <string name="power_widget_title">Quick Toggles</string>
     <string name="status_bar_title">Statusbar Mods</string>
     <string name="toggles_title">QuickSettings Tile Settings</string>
+=======
+    <!-- Carbon Links  -->
+    <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
+    <string name="header_category_carbon_links">Carbon</string>
+    <string name="carbon_settings_title">Carbon Rom</string>
+    <string name="carbon_settings_title_menu">Customize Carbon</string>
+    <string name="performance_title">Performance</string>
+    <string name="themes_settings_title">Themes</string>
+
+    <!-- Carbon Settings (submenu) -->
+    <string name="interface_title">Interface</string>
+    <string name="lock_screen_title">Lockscreen</string>
+    <string name="navbar_title">Navigation</string>
+    <string name="power_menu_title">Power Menu</string>
+    <string name="power_widget_title">Power Widget</string>
+    <string name="status_bar_title">Statusbar</string>
+    <string name="toggles_title">Statusbar Toggles</string>
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
@@ -4548,6 +4646,7 @@
     <!-- Menu Strings -->
     <string name="menu_nav_bar_reset">Reset nav bar</string>
     <string name="menu_ribbon_reset">Reset ribbon</string>
+    <string name="menu_ribbon_rearrange">Rearrange ribbon</string>
 
     <!-- Lockscreen Vibrate -->
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
@@ -4574,16 +4673,15 @@
     <string name="lockscreen_see_through_summary">Allows you to see your homescreen behind the lock screen including apps.</string>
     <string name="lockscreen_all_widgets_title">Allow all widgets</string>
     <string name="lockscreen_all_widgets_summary">Warning: Some widgets are not intended to be used on the lockscreen. Deal with it.</string>
-
-    <string name="lockscreen_all_widgets_summary">Warning: Some widgets are not intended to be used on the lockscreen. Do not blame the widget maker or Carbon if your widget misbehaves. Choose responsibly!</string>
     <string name="lockscreen_minimize_challenge_title">Minimize lockscreen challenge</string>
+    <string name="lockscreen_minimize_challenge_title">Maximize lockscreen widget</string>
+    <string name="lockscreen_minimize_challenge_summary">Set whether the lockscreen widget is maximized when the screen is turned on.</string>
     <string name="lockscreen_battery_title">Lockscreen battery percentage</string>
     <string name="volume_music_controls_title">Volume music controls</string>
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="lockscreen_unlimited_widgets_title">Allow unlimited widgets</string>
     <string name="lockscreen_text_color_summary">Set the lockscreen text color</string>
     <string name="lockscreen_battery_summary">Always show battery percentage on the lockscreen</string>
-    <string name="lockscreen_minimize_challenge_summary">Set whether the lockscreen challenge is minimized when the screen is turned on.</string>
     <string name="lockscreen_camera_widget_title">Toggle camera widget</string>
     <string name="lockscreen_camera_widget_summary">Allows you to turn on or off the camera widget on the lockscreen.</string>
 
@@ -4865,12 +4963,8 @@
     <string name="cpu_set_on_boot">Set On Boot</string>
     <string name="cpu_set_on_boot_summary">Restore the processor settings on boot</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O Scheduler</string>
     <!-- Performance Settings : I/O scheduler settings summary. -->
     <string name="io_scheds_summary">Change I/O scheduler</string>
-
-    <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O Scheduler</string>
     <string name="io_sched_summary">%S</string>
     <string name="io_sched_set_on_boot">Set On Boot</string>
@@ -5111,7 +5205,7 @@
     <string name="custom_carrier_label_explain">Please enter a new label. Empty label to revert to stock</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="lcd_density_title">LCD Density</string>
-    <string name="lcd_density_summary">unknown</string>
+    <string name="lcd_density_summary">Modify DPI</string>
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charger</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if a charger is plugged/unplugged</string>
 
@@ -5191,6 +5285,8 @@
     <string name="toggle_longpress_title">Longpress action %1$s</string>
     <string name="custom_toggle_action">How it works</string>
     <string name="custom_toggle_desc">In Basic mode, the toggle will cycle through actions on each click. Longpress will launch the displayed action. This is most useful for users who want the toggle to launch applications.\nIn Advanced mode, the toggle allows you to launch an action with each click. Longpress actions will also be available to you in this mode. This is most useful for users who desire a toggle that performs tasks that does not launch a new application.</string>
+    <string name="custom_help_title">How it works</string>
+    <string name="custom_help_summary">Click for more information</string>
     <string name="custom_toggle_okay">Dismiss</string>
     <string name="custom_toggle_cat">Custom toggle</string>
     <string name="custom_button_cat">Custom toggle actions</string>
@@ -5275,6 +5371,10 @@
     <string name="navigation_bar_height_summary">Navbar height while in portrait mode</string>
     <string name="navigation_bar_height_landscape_title">Height Landscape</string>
     <string name="navigation_bar_height_landscape_summary">Navbar height while in landscape</string>
+    <string name="system_bar_height_title">System Bar height</string>
+    <string name="system_bar_height_summary">System Bar height while in portrait</string>
+    <string name="system_bar_height_landscape_title">System Bar height landscape</string>
+    <string name="system_bar_height_landscape_summary">System Bar height while in landscape</string>
     <string name="navigation_bar_width_title">Navbar Width</string>
     <string name="navigation_bar_width_summary">Navbar height if the bar is along left side</string>
     <string name="navbar_enable_dialog_title">Reboot Required!</string>
@@ -5307,7 +5407,7 @@
     <string name="navigation_bar_menu_arrow_keys_title">Menu Arrow Keys</string>
     <string name="navigation_bar_menu_arrow_keys_summary">Show arrow keys in the navbar while typing</string>
     <string name="statusbar_hide_title">Hide Statusbar</string>
-    <string name="statusbar_hide_summary">Allow completly hide the Statusbar</string>
+    <string name="statusbar_hide_summary">Hide the Statusbar</string>
     <string name="navigation_bar_alpha_title">Statusbar and navbar opacity</string>
     <string name="navbar_hide_enable_title">Hidden Navbar Enable</string>
     <string name="drag_handle_opacity_title">Drag Handle Opacity</string>
@@ -5350,7 +5450,6 @@
     <string name="navring_icon">Custom icon</string>
     <string name="navring_target_amount_text">Current number of targets</string>
     <string name="navring_target_longpress_text">Longpress status</string>
-
 
    <!-- Ribbon -->
     <string name="ribbon_dialog_arrange_title">Ribbon layout</string>
@@ -5396,7 +5495,6 @@
     <string name="title_ribbon">Ribbon Options</string>
     <string name="menu_ribbon_reset">Reset ribbon</string>
     <string name="menu_ribbon_rearrange">Rearrange ribbon</string>
-
 
     <!-- Lockscreen Targets-->
     <string name="lockscreen_targets_title">Lockscreen targets</string>
@@ -5675,6 +5773,12 @@
     <string name="pref_wifi_disable_hdcp_title">Skip HDCP negotiation</string>
     <string name="pref_wifi_disable_hdcp_summary">Try this option if you can connect but don\'t get any output</string>
 
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">MediaScanner Boot Options</string>
+    <string name="media_scanner_on_boot_enabled">Scan media</string>
+    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
+    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
+
     <!--- Sms security limit -->
     <string name="app_security_title">App security</string>
     <string name="sms_security_check_limit_title">SMS message limit</string>
@@ -5682,7 +5786,7 @@
     <string name="sms_security_check_limit_default">30 (Default)</string>
 
     <!--- Clock Widget -->
-    <string name="lock_clock_title">Clock Widget</string>
+    <string name="lock_clock_title">LockClock Widget</string>
     <string name="lock_clock_summary">View or change how the widget will display</string>
 
     <!-- Stylus Icon -->
@@ -5774,6 +5878,31 @@
     <string name="stub_battery">Stub Battery</string>
     <string name="gear_battery">Gear Battery</string>
     <string name="cm_battery">Slim With Precent Battery</string>
+    <string name="system_power_crt_screen_off_title">CRT Screen Off</string>
+    <string name="system_power_crt_screen_off_summary">Screen will animate an Electron Beam when turned off</string>
+    <string name="system_power_crt_screen_on_title">CRT Screen On</string>
+    <string name="system_power_crt_screen_on_summary">Screen will animate an Electron Beam when turned on</string>
+
+    <!-- Battery Icon and Bar -->
+    <string name="status_bar_battery_icon_bar_title">Battery Icon and Bar Style</string>
+    <string name="battery_icon_cat">Battery icon style</string>
+    <string name="status_bar_battery_title">Battery icon style</string>
+    <string name="title_statusbar_battery">Statusbar Battery</string>
+    <string name="icon_with_text">Icon with text</string>
+    <string name="icon_with_centered_text">Icon with centered text</string>
+    <string name="circlemod">CircleMOD</string>
+    <string name="circle">Circle</string>
+    <string name="circle_percent">Circle with percent</string>
+    <string name="battery_icon_title">Icon Style</string>
+    <string name="icon_w_text">Icon with text</string>
+    <string name="icon_w_center_text">Icon with centered text</string>
+    <string name="icon_only">Icon only</string>
+    <string name="text_only">Text only</string>
+    <string name="circle_battery">Circle</string>
+    <string name="circle_battery_w_percent">Circle with percent</string>
+    <string name="circle_dotted_w_percent">Dotted with percent</string>
+    <string name="speed_battery">SpeedoMeter</string>
+    <string name="gear_battery">Gear</string>
     <string name="hide">Hide</string>
     <string name="circle_battery_color">Circle color</string>
     <string name="circle_battery_text_color">Circle text color</string>
@@ -5812,6 +5941,8 @@
 
     <!-- TRDS Settings -->
     <string name="trds_settings_title">Burner Interface</string>
+    <string name="status_bar_icon_opacity">Notification Icon Opacity</string>
+    <string name="status_bar_icon_opacity_summary">Sets opacity of status bar notification icons</string>
 
     <!-- Breathing Notifications -->
     <string name="status_bar_breathing_notifs_title">Breathing Notifications</string>
@@ -5844,6 +5975,16 @@
     <string name="auto_brightness_split_dialog_title">Split brightness level</string>
     <string name="auto_brightness_start_lux">Range start (lux)</string>
     <string name="auto_brightness_end_lux">Range end (lux)</string>
+    <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
+    <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
+    <string name="auto_brightness_brightness_format"><xliff:g id="percent">%s</xliff:g>%%</string>
+    <string name="auto_brightness_adjust_button">Adjust</string>
+    <string name="auto_brightness_close_button">Close</string>
+    <string name="auto_brightness_reset_button">Reset</string>
+    <string name="auto_brightness_split_dialog_title">Split brightness level</string>
+    <string name="auto_brightness_level_dialog_title">Light level setup</string>
+    <string name="auto_brightness_lux">Ambient brightness (lux)</string>
+    <string name="auto_brightness_backlight">Screen brightness (%)</string>
     <string name="auto_brightness_reset_dialog_title">Reset levels?</string>
     <string name="auto_brightness_reset_confirmation">All brightness levels will be reset to their default settings.</string>
     <string name="auto_brightness_split_lux_format">Split position (between <xliff:g id="min">%1$d</xliff:g> and <xliff:g id="max">%2$d</xliff:g> lux)</string>
@@ -5852,6 +5993,35 @@
     <string name="auto_brightness_menu_split">Split</string>
     <string name="auto_brightness_menu_remove">Remove</string>
     <string name="ok">OK</string>
+    <string name="auto_brightness_menu_edit">Edit</string>
+    <string name="auto_brightness_menu_split">Split</string>
+    <string name="auto_brightness_menu_remove">Remove</string>
+    <string name="auto_brightness_preview">Preview</string>
+    <string name="auto_brightness_preview_dialog_title">Brightness curve preview</string>
+    <string name="auto_brightness_help_dialog_title">Help</string>
+    <string name="auto_brightness_help_text"><b>How is brightness calculated?</b>
+\n\n
+The brightness curve is calculated by performing a <i>cubic spline interpolation</i>
+on a given number of <i>control points</i>. It\'s not a \'bucket-type\' calculation where
+screen brightness will stay constant for a specific range of ambient brightness. That way,
+small changes in ambient brightness do not cause a large jump in screen brightness; however,
+it can be a little hard to predict the exact consequences of changing control points.\n
+To help with that, a preview of the calculated curve can be examined. Please note that the
+preview shows the curve in <i>logarithmic</i> scale, so that all control points can be shown
+distinctively. When using a linear scale, it wouldn\'t be possible to distinguish the tendentially
+more important control points in the lower range of ambient brightness.
+\n\n
+<b>How to edit the brightness curve?</b>
+\n\n
+Each line in the brightness list corresponds to one <i>control point</i> of the
+brightness curve. To edit the brightness level of the point, you can use the slider
+present in each line. The screen brightness will be changed accordingly while touching
+the slider to give a preview of the light level.\n
+Additional options are available by long-pressing a line. By selecting \'Edit\', you can
+both edit the ambient brightness level of the control point as well as manually input the
+desired screen brightness. Selecting \'Split\' allows you to to duplicate one line into
+two in order to insert additional control points. \'Remove\' deletes the selected line.
+    </string>
 
     <!-- Lock volume keys -->
     <string name="sound_lock_volume_keys_title">Lock volume keys</string>
@@ -5902,6 +6072,35 @@
     <!-- Auto-Hide Status Bar -->
     <string name="auto_hide_statusbar">Auto Hide Statusbar</string>
     <string name="auto_hide_statusbar_summary">Statusbar hides when there are no notifications</string>
+
+    <!-- Auto Hide Statusbar -->
+    <string name="auto_hide_statusbar">Auto Hide Statusbar</string>
+    <string name="auto_hide_statusbar_summary">Statusbar hides itself when there are no notifications</string>
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
+
+    <!-- Permissions Management -->
+    <string name="permissions_settings_title">Permissions</string>
+
+    <!-- Hidden Statusbar Pulldown -->
+    <string name="hidden_statusbar_pulldown_title">Hidden Statusbar Pulldown</string>
+    <string name="hidden_statusbar_pulldown_summary">Allows Statusbar to be pulled down when hidden</string>
+    <string name="hidden_statusbar_pulldown_timeout_title">Hidden Statusbar Pulldown Timeout</string>
+    <string name="hidden_statusbar_pulldown_timeout_summary">Timeout for hidden Statusbar window</string>
+
+	<!-- Category title for power sound notification specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Power sounds</string>
+    <!-- Sound settings, power notifications enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Enable</string>
+    <!-- Sound settings, power notifications vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrate</string>
+    <!-- Sound settings, power notifications ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Notification sound</string>
+    <!-- Sound settings, power notifications label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silent</string>
 
     <!-- **** CODEX ADDITIONS END **** -->
 </resources>

@@ -1158,7 +1158,11 @@
         </activity-alias>
 
         <activity android:name=".AppPicker" android:label="@string/select_application"
+<<<<<<< HEAD
                 android:theme="@android:style/Theme.Holo.Dialog" />
+=======
+                android:theme="@*android:style/Theme.Holo.Dialog" />
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
 
         <activity android:name="Settings$UsbSettingsActivity"
                 android:label="@string/storage_title_usb"
@@ -1277,7 +1281,11 @@
 
         <activity android:name="ActivityPicker"
                 android:label="@string/activity_picker_label"
+<<<<<<< HEAD
                 android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+=======
+                android:theme="@*android:style/Theme.Holo.Dialog"
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
                 android:finishOnCloseSystemDialogs="true">
             <intent-filter>
                 <action android:name="android.intent.action.PICK_ACTIVITY" />
@@ -1396,7 +1404,11 @@
         <!-- Standard picker for widgets -->
         <activity android:name="AppWidgetPickActivity"
                 android:label="@string/widget_picker_title"
+<<<<<<< HEAD
                 android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+=======
+                android:theme="@*android:style/Theme.Holo.Dialog"
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
                 android:finishOnCloseSystemDialogs="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_PICK" />
@@ -1405,7 +1417,11 @@
         </activity>
 
         <activity android:name="AllowBindAppWidgetActivity"
+<<<<<<< HEAD
                 android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+=======
+                android:theme="@*android:style/Theme.Holo.Dialog"
+>>>>>>> 29031eded626f244e697dcfcb7d6ad5ddbfaecb3
                 android:finishOnCloseSystemDialogs="true"
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -1541,7 +1557,6 @@
         <activity android:name=".carbon.LockscreenButtons" />
         <activity android:name=".carbon.LockscreenShortcuts" />
         <activity android:name=".carbon.Lockscreens" />
-
         <activity android:name=".carbon.Navbar" />
         <activity android:name=".carbon.NavRingTargets" />
         <activity android:name=".carbon.NotificationDrawerStyle" />

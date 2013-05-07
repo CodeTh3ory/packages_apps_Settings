@@ -36,6 +36,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.UserHandle;
+import android.preference.PreferenceFragment;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -761,7 +762,7 @@ public class Lockscreens extends SettingsPreferenceFragment implements
 
         final AlertDialog dialog = new AlertDialog.Builder(mContext)
                 .setTitle(title)
-                .setSingleChoiceItems(entries, -1, l)
+                .setItems(entries, l)
                 .create();
 
         dialog.show();
