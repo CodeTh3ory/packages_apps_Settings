@@ -49,11 +49,11 @@
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
     <string name="header_category_wireless_networks">AXI0M CONNECTION MANAGER</string>
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
-    <string name="header_category_device">DEVICE OPTIONS</string>
+    <string name="header_category_device">AXI0M DEVICE OPTIONS</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
-    <string name="header_category_personal">PERSONAL FEATURES</string>
+    <string name="header_category_personal">AXI0M PERSONAL FEATURES</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
-    <string name="header_category_system">SYSTEM SETTINGS</string>
+    <string name="header_category_system">AXI0M SYSTEM SETTINGS</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
 
     <!-- Phone info -->
@@ -4493,7 +4493,7 @@
     <string name="mod_version">AXI0M Build</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Coded Date</string>
+    <string name="build_date">Built On</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">Processor</string>
