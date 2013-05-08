@@ -47,7 +47,7 @@
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
-    <string name="header_category_wireless_networks">CODEX CONNECTION MANAGER</string>
+    <string name="header_category_wireless_networks">AXI0M CONNECTION MANAGER</string>
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
     <string name="header_category_device">DEVICE OPTIONS</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
@@ -4490,7 +4490,7 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">CodeX Build Info</string>
+    <string name="mod_version">AXI0M Build</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Coded Date</string>
@@ -4501,15 +4501,15 @@
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
-    <!-- CodeX Links  -->
+    <!-- Axi0m Links  -->
     <!-- Settings main menu category heading. [CHAR LIMIT=40] -->
-    <string name="header_category_codex_links">CODEX CONTROL PANEL</string>
-    <string name="codex_settings_title">CodeX System Interface</string>
-    <string name="codex_settings_title_menu">CodeX Modifiers</string>
+    <string name="header_category_axi0m_links">AXI0M CORE INTERFACE</string>
+    <string name="axi0m_settings_title">AXI0M System Modifiers</string>
+    <string name="axi0m_settings_title_menu">AXI0M Modifiers</string>
     <string name="performance_title">CPU Performance</string>
     <string name="themes_settings_title">Theme Chooser</string>
 
-    <!-- CodeX Settings (submenu) -->
+    <!-- Axi0m Settings (submenu) -->
     <string name="interface_title">System Core Settings</string>
     <string name="lock_screen_title">Lockscreen Mods</string>
     <string name="navbar_title">NavBar Mods</string>
@@ -5941,7 +5941,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="header_perms">System Wide Permissions</string>
     <string name="header_su">Integrated SuperUser Options</string>
     <string name="header_summary_sys">Sytem Interface Options</string>
-    <string name="header_summary_system_settings">CodeX Modifier Options</string>
+    <string name="header_summary_system_settings">AXI0M System Core Options</string>
     <string name="header_summary_home">Setup Your Launcher</string>
     <string name="header_summary_qs">QuickSettings Tile Options</string>
     <string name="header_summary_qt">QuickToggle Options</string>
@@ -6004,5 +6004,5 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Sound settings, power notifications label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silent</string>
 
-    <!-- **** CODEX ADDITIONS END **** -->
+    <!-- **** AXI0M ADDITIONS END **** -->
 </resources>

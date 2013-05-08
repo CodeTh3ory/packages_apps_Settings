@@ -17,9 +17,9 @@
 <preference-headers
         xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- CodeX -->
+    <!-- Axi0m -->
     <header android:id="@+id/carbon_section"
-        android:title="@string/header_category_codex_links" />
+        android:title="@string/header_category_axi0m_links" />
 
     <!-- Launcher -->
     <header
@@ -32,16 +32,16 @@
     <!-- Carbon Settings -->
     <header
         android:id="@+id/carbon_settings"
-        android:icon="@drawable/ic_codex_interface"
+        android:icon="@drawable/ic_axi0m_interface"
         android:summary="@string/header_summary_system_settings"
-        android:title="@string/codex_settings_title"
+        android:title="@string/axi0m_settings_title"
         android:fragment="com.android.settings.carbon.CarbonSettings" />
 
     <!-- Pie Controls -->
     <header
         android:id="@+id/pie_controls"
         android:title="@string/pie_controls_title"
-        android:icon="@drawable/ic_codex_pie"
+        android:icon="@drawable/ic_axi0m_pie"
         android:summary="@string/header_summary_pie"
         android:fragment="com.android.settings.carbon.Pie" />
 
@@ -60,7 +60,7 @@
     <!-- TRDS -->
     <header
         android:id="@+id/trds_settings"
-        android:icon="@drawable/ic_codex_trds"
+        android:icon="@drawable/ic_axi0m_trds"
         android:summary="@string/header_summary_burn"
         android:title="@string/trds_settings_title" />
 
@@ -85,7 +85,7 @@
         android:id="@+id/performance_settings"
         android:title="@string/performance_title"
             android:summary="@string/header_summary_speeddemon"
-        android:icon="@drawable/ic_codex_performance" >
+        android:icon="@drawable/ic_axi0m_performance" >
         <intent
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="com.brewcrewfoo.performance"
