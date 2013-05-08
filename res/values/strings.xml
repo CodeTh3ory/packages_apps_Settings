@@ -5841,7 +5841,7 @@
     <string name="launcher_settings_title">Launcher Options</string>
 
     <!-- TRDS Settings -->
-    <string name="trds_settings_title">Burner Interface</string>
+    <string name="trds_settings_title">Blister Interface</string>
     <string name="status_bar_icon_opacity">Notification Icon Opacity</string>
     <string name="status_bar_icon_opacity_summary">Sets opacity of status bar notification icons</string>
 
@@ -5947,7 +5947,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="header_summary_qt">QuickToggle Options</string>
     <string name="header_summary_statusbar">Status Bar Settings</string>
     <string name="header_summary_themes">Apply Additional Themes</string>
-    <string name="header_summary_burn">Enable Full Burn UI</string>
+    <string name="header_summary_burn">Enable Black UI</string>
     <string name="header_summary_lockscreen">Setup Your LockScreen</string>
     <string name="header_summary_pie">Pie Modifiers</string>
     <string name="header_summary_profiles">Setup Your UserProfiles</string>
