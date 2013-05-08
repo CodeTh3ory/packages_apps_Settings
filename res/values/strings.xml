@@ -4630,12 +4630,21 @@
     <!-- Transparency -->
     <string name="transparency_dialog_title">Transparency settings</string>
     <string name="transparency_dialog_linked_transparency">Link statusbar &amp; navbar alpha</string>
-    <string name="transparency_dialog_transparency_sb_and_nv">Statusbar and navigation bar</string>
+    <string name="transparency_dialog_transparency_sb_and_nv">Statusbar &amp; navigation bar</string>
     <string name="transparency_dialog_statusbar">Statusbar</string>
     <string name="transparency_dialog_navbar">Navigation bar</string>
     <string name="transparency_dialog_match_keyguard_alpha">Match lockscreen alpha</string>
     <string name="transparency_dialog_transparency">Homescreen alpha</string>
     <string name="transparency_dialog_transparency_keyguard">Lockscreen alpha</string>
+    <string name="statusbar_behaviour">Statusbar hide &amp; seek</string>
+    <string name="statusbar_visible">Show statusbar</string>
+    <string name="statusbar_hide_title">Hide statusbar</string>
+    <string name="statusbar_hide_summary">Choose from 3 different statusbar behaviours</string>
+    <string name="statusbar_notification">Auto hide (reveal on incoming notifications)</string>
+    <string name="statusbar_pulldown">Pulldown statusbar when hidden</string>
+    <string name="statusbar_pulldown_notification">Pulldown  statusbar when hidden &amp; auto hide</string>
+    <string name="hidden_statusbar_pulldown_timeout_title">Hidden statusbar pulldown timeout</string>
+    <string name="hidden_statusbar_pulldown_timeout_summary">Timeout for hidden statusbar window</string>
 
     <!-- Profiles Settings  -->
     <string name="profiles_settings_title">Smart Profiles</string>
