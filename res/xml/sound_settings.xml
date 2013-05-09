@@ -38,9 +38,12 @@
             android:entries="@array/volume_overlay_entries"
             android:entryValues="@array/volume_overlay_values" />
 
-    <Preference
-            android:key="musicfx"
-            android:title="@string/musicfx_title" />
+     <Preference
+             android:key="musicfx"
+             android:title="@string/musicfx_title">
+             <intent android:targetPackage="com.android.musicfx"
+                 android:targetClass="com.android.musicfx.ControlPanelPicker" />
+     </Preference>
 
     <!-- Quiet hours -->
     <PreferenceScreen
