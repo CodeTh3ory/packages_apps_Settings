@@ -1692,7 +1692,7 @@
     <!-- Sound settings screen, volume title -->
     <string name="all_volume_title">Volumes</string>
     <!-- Sound settings screen, music effects title [CHAR LIMIT=30]-->
-    <string name="musicfx_title">DSP Manager</string>
+    <string name="musicfx_title">Audio Equalizer</string>
     <!-- Sound settings screen, setting option name -->
     <string name="ring_volume_title">Ringer volume</string>
     <!-- Sound settings screen, setting option name checkbox -->
@@ -6026,6 +6026,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="header_summary_bt">Manage Bluetooth</string>
     <string name="header_summary_data">Manage Carrier Data</string>
     <string name="header_summary_sound">Personalize Sound Settings</string>
+    <string name="header_summary_eq">Equalizer Settings</string>
     <string name="header_summary_display">Setup Display</string>
     <string name="header_summary_storage">Internal Device Info</string>
     <string name="header_summary_stats">Device Battery Stats</string>
