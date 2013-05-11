@@ -5846,7 +5846,7 @@
     <string name="speed_battery">SpeedoMeter Battery</string>
     <string name="stub_battery">Stub Battery</string>
     <string name="gear_battery">Gear Battery</string>
-    <string name="cm_battery">Slim With Precent Battery</string>
+    <string name="cm_battery">Slim With Percent Battery</string>
     <string name="system_power_crt_screen_off_title">CRT Screen Off</string>
     <string name="system_power_crt_screen_off_summary">Screen will animate an Electron Beam when turned off</string>
     <string name="system_power_crt_screen_on_title">CRT Screen On</string>
