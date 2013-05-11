@@ -5088,7 +5088,7 @@
 
     <!-- Sound settings screen -->
     <string name="volume_overlay_title">Volume panel style</string>
-    <string name="volume_keys_control_ring_stream">Volume keys control
+    <string name="volume_keys_control_ring_stream">Volume keys control</string>
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
     <string name="headset_connect_player_title">Launch music app on connect</string>
