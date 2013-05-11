@@ -6026,7 +6026,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="header_summary_bt">Manage Bluetooth</string>
     <string name="header_summary_data">Manage Carrier Data</string>
     <string name="header_summary_sound">Personalize Sound Settings</string>
-    <string name="header_summary_eq">Equalizer Settings</string>
+    <string name="header_summary_eq">Select EQ Options</string>
     <string name="header_summary_display">Setup Display</string>
     <string name="header_summary_storage">Internal Device Info</string>
     <string name="header_summary_stats">Device Battery Stats</string>

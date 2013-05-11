@@ -40,8 +40,8 @@
 
     <Preference
             android:key="musicfx"
+            android:summary="@string/header_summary_eq"
             android:title="@string/musicfx_title">
-        android:summary="@string/header_summary_eq"
             <intent android:targetPackage="com.android.musicfx"
                 android:targetClass="com.android.musicfx.ControlPanelPicker" />
     </Preference>
