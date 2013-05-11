@@ -1,4 +1,3 @@
-
 package com.android.settings.carbon;
 
 import android.os.Bundle;
@@ -68,7 +67,7 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements OnPr
         mBatteryIcon.setOnPreferenceChangeListener(this);
         mBatteryIcon.setValue((Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.STATUSBAR_BATTERY_ICON,
-                0))
+                7))
                 + "");
 
         mBatteryBar = (ListPreference) prefSet.findPreference(PREF_BATT_BAR);
