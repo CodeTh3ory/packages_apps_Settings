@@ -5926,8 +5926,8 @@
     <string name="notification_behaviour_title">Notification behaviour</string>
 
     <!-- Alternate default app picker -->
-    <string name="alt_resolver_title">Use Alt Default App Picker</string>
-    <string name="alt_resolver_summary">Use Alternate Default App Picker</string>
+    <string name="alt_resolver_title">Enable Halo App Picker</string>
+    <string name="alt_resolver_summary"> Default App Selection</string>
 
     <!-- Power button torch -->
     <string name="power_button_torch_title">Power button LED Light</string>
