@@ -70,6 +70,7 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
     private static final String KEY_STYLUS_GESTURES = "stylus_gestures";
     private static final String KEYBOARD_ROTATION_TOGGLE = "keyboard_rotation_toggle";
     private static final String KEYBOARD_ROTATION_TIMEOUT = "keyboard_rotation_timeout";
+    private static final String SHOW_ENTER_KEY = "show_enter_key";
     private static final String TAG = "KeyboardInputSettings";
 
     private static final int KEYBOARD_ROTATION_TIMEOUT_DEFAULT = 5000; // 5s
@@ -109,6 +110,7 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
     private ListPreference mVolumeKeyCursorControl;
     private CheckBoxPreference mKeyboardRotationToggle;
     private ListPreference mKeyboardRotationTimeout;
+    private CheckBoxPreference mShowEnterKey;
     private CheckBoxPreference mDisableFullscreenKeyboard;
 
     @Override
@@ -129,6 +131,11 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
         mKeyboardRotationTimeout.setOnPreferenceChangeListener(this);
         updateRotationTimeout(Settings.System.getInt(getActivity()
                     .getContentResolver(), Settings.System.KEYBOARD_ROTATION_TIMEOUT, KEYBOARD_ROTATION_TIMEOUT_DEFAULT));
+
+        mShowEnterKey = (CheckBoxPreference) findPreference(SHOW_ENTER_KEY);
+        mShowEnterKey.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.FORMAL_TEXT_INPUT, 0) == 1);
+    }
 
         try {
             mDefaultInputMethodSelectorVisibility = Integer.valueOf(
