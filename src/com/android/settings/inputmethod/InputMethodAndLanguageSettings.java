@@ -135,7 +135,6 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
         mShowEnterKey = (CheckBoxPreference) findPreference(SHOW_ENTER_KEY);
         mShowEnterKey.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.FORMAL_TEXT_INPUT, 0) == 1);
-    }
 
         try {
             mDefaultInputMethodSelectorVisibility = Integer.valueOf(
