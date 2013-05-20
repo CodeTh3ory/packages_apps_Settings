@@ -4636,7 +4636,7 @@
     <string name="transparency_dialog_match_keyguard_alpha">Match lockscreen alpha</string>
     <string name="transparency_dialog_transparency">Homescreen alpha</string>
     <string name="transparency_dialog_transparency_keyguard">Lockscreen alpha</string>
-    <string name="statusbar_behaviour">Statusbar hide &amp; seek</string>
+    <string name="statusbar_behaviour">Statusbar AutoHide </string>
     <string name="statusbar_visible">Show statusbar</string>
     <string name="statusbar_hide_title">Hide statusbar</string>
     <string name="statusbar_hide_summary">Choose from 3 different statusbar behaviours</string>
@@ -5171,7 +5171,7 @@
     <string name="title_toggles_autohide">Auto hide toggles</string>
     <string name="summary_toggles_autohide">Hide toggles after drawer closes.</string>
     <string name="statusbar_hide_title">Hide Statusbar</string>
-    <string name="statusbar_hide_summary">Allow Statusbar to be hidden</string>
+    <string name="statusbar_hide_summary">Config Autohide Options</string>
     <string name="reset_toggles_title">Reset toggles</string>
     <string name="reset_toggles_summary">Reset all toggles and their order</string>
     <string name="toggle_button_alpha_title">Toggle indicator alpha</string>
@@ -5937,7 +5937,7 @@
     <string name="notification_behaviour_title">Notification behaviour</string>
 
     <!-- Alternate default app picker -->
-    <string name="alt_resolver_title">Enable Halo App Picker</string>
+    <string name="alt_resolver_title">App Picker Style</string>
     <string name="alt_resolver_summary"> Default App Selection</string>
 
     <!-- Power button torch -->
