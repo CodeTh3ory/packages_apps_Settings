@@ -4774,10 +4774,12 @@
     <string name="pie_search_summary">Access to GoogleNow via Pie</string>
     <string name="pie_lastapp_title">Last App button</string>
     <string name="pie_lastapp_summary">Enable last app button on Pie</string>
+    <string name="pie_killtask_title">Kill task button</string>
+    <string name="pie_killtask_summary">Enable kill task button on Pie</string>
     <string name="pie_stick_title">Prevent rotation</string>
     <string name="pie_stick_summary">If checked Pie will stay in place no matter which orientation</string>
-    <string name="pie_restart_launcher_title">Restart Launcher</string>
-    <string name="pie_restart_launcher_summary">Changing screensize can have adverse effects. This option allows your launcher to regain sanity, the cost is a slight blackout (recommended)</string>
+    <string name="pie_restart_launcher_title">Restart launcher</string>
+    <string name="pie_restart_launcher_summary">Allows your launcher to regain sanity after a screensize change (recommended)</string>
     <string name="all_color">Custom Colors</string>
     <string name="stock_color">Default Colors</string>
 
