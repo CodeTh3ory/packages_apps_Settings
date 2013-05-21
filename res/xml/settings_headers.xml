@@ -46,7 +46,7 @@
         android:fragment="com.android.settings.carbon.Pie" />
 
     <!-- Ribbons -->
-    <PreferenceScreen
+    <header
         android:id="@+id/ribbon_targets"
         android:fragment="com.android.settings.carbon.RibbonTargets"
         android:title="@string/ribbon_settings_title"
