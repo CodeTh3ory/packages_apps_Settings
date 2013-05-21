@@ -24,13 +24,6 @@
         android:summary="@string/header_summary_sys"
         android:fragment="com.android.settings.carbon.InterfaceSettings" />
 
-    <!-- Ribbons -->
-    <PreferenceScreen
-        android:id="@+id/ribbon_targets"
-        android:fragment="com.android.settings.carbon.RibbonTargets"
-        android:title="@string/ribbon_settings_title"
-        android:summary="@string/ribbon_settings_summary" />
-
     <!-- Navbar -->
     <PreferenceScreen
         android:id="@+id/nav_bar"

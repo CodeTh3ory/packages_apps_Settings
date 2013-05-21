@@ -29,7 +29,7 @@
         android:icon="@drawable/ic_settings_home"
         android:summary="@string/header_summary_home" />
 
-    <!-- Carbon Settings -->
+    <!-- Axi0m Settings -->
     <header
         android:id="@+id/carbon_settings"
         android:icon="@drawable/ic_axi0m_interface"
@@ -44,6 +44,14 @@
         android:icon="@drawable/ic_axi0m_pie"
         android:summary="@string/header_summary_pie"
         android:fragment="com.android.settings.carbon.Pie" />
+
+    <!-- Ribbons -->
+    <PreferenceScreen
+        android:id="@+id/ribbon_targets"
+        android:fragment="com.android.settings.carbon.RibbonTargets"
+        android:title="@string/ribbon_settings_title"
+        android:icon="@drawable/ic_axi0m_ribbons"
+        android:summary="@string/ribbon_settings_summary" />
 
     <!-- Themes -->
     <header
