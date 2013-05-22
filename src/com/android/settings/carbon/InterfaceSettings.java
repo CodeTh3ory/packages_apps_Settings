@@ -102,7 +102,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
 
     Preference mCustomLabel;
     Preference mRamBar;
-    Preference mLcdDensity;
     CheckBoxPreference mWakeUpWhenPluggedOrUnplugged;
     CheckBoxPreference mShowWifiName;
     CheckBoxPreference mCrtOff;
@@ -120,10 +119,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
 
 
     String mCustomLabelText = null;
-
-    int newDensityValue;
-    DensityChanger densityFragment;
-    Configuration mCurConfig = new Configuration();
 
     private boolean isCrtOffChecked = false;
 
@@ -158,16 +153,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
                 Settings.System.SYSTEM_POWER_ENABLE_CRT_ON, 0) == 1);
         mCrtOn.setEnabled(isCrtOffChecked);
         mCrtOn.setOnPreferenceChangeListener(this);
-
-        mLcdDensity = findPreference("lcd_density_setup");
-        String currentProperty = SystemProperties.get("ro.sf.lcd_density");
-        try {
-            newDensityValue = Integer.parseInt(currentProperty);
-        } catch (Exception e) {
-            getPreferenceScreen().removePreference(mLcdDensity);
-        }
-
-        mLcdDensity.setSummary(getResources().getString(R.string.current_lcd_density) + currentProperty);
 
         mCustomLabel = findPreference(PREF_CUSTOM_CARRIER_LABEL);
         updateCustomLabelTextSummary();
@@ -301,10 +286,6 @@ public class InterfaceSettings extends SettingsPreferenceFragment
                 }
             });
             alert.show();
-        } else if (preference == mLcdDensity) {
-            ((PreferenceActivity) getActivity())
-            .startPreferenceFragment(new DensityChanger(), true);
-            return true;
         } else if (preference == mHideExtras) {
             Settings.System.putBoolean(mContext.getContentResolver(),
                     Settings.System.HIDE_EXTRAS_SYSTEM_BAR,
