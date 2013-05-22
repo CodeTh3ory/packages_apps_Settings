@@ -845,23 +845,7 @@
         <item>Always allow</item>
     </string-array>
 
-    <!-- **** CARBON EDITS START **** -->
-
-    <!-- LCD Density -->
-    <string-array name="lcd_density_entries" translatable="false">
-        <item>160</item>
-        <item>180</item>
-        <item>200</item>
-        <item>220</item>
-        <item>240</item>
-        <item>241</item>
-        <item>260</item>
-        <item>280</item>
-        <item>300</item>
-        <item>320</item>
-        <item>340</item>
-        <item>@string/custom_density</item>
-    </string-array>
+    <!-- **** AXI0M EDITS START **** -->
 
     <!-- Notification Shortcuts -->
     <string-array name="notification_shortcuts_quantity_entries" translatable="false">
@@ -994,20 +978,6 @@
         <item>@*android:drawable/ic_shortcut_tv</item>
         <item>@*android:drawable/ic_shortcut_twitter</item>
         <item>@*android:drawable/ic_shortcut_unlock</item>
-    </string-array>
-
-    <string-array name="lcd_density_stock_entries">
-        <item>160 -- mdpi</item>
-        <item>213 -- nexus7</item>
-        <item>240 -- hdpi</item>
-        <item>320 -- xhdpi</item>
-    </string-array>
-
-    <string-array name="lcd_density_stock_values" translatable="false">
-        <item>160</item>
-        <item>213</item>
-        <item>240</item>
-        <item>320</item>
     </string-array>
 
     <!-- Volume Overlay options. -->
@@ -1228,21 +1198,6 @@
         <item>10</item>
         <item>18</item>
         <item>26</item>
-
-    <string-array name="entries_pie_trigger">
-        <item>@string/pie_trigger_none</item>
-        <item>@string/pie_trigger_small</item>
-        <item>@string/pie_trigger_normal</item>
-        <item>@string/pie_trigger_big</item>
-        <item>@string/pie_trigger_huge</item>
-    </string-array>
-
-    <string-array name="values_pie_trigger" translatable="false">
-        <item>0.0</item>
-        <item>0.5</item>
-        <item>1.0</item>
-        <item>2.0</item>
-        <item>3.0</item>
     </string-array>
 
     <string-array name="dithering_entries" translatable="false">
@@ -2148,12 +2103,14 @@
     </string-array>
 
     <string-array name="entries_pie_trigger">
+        <item>@string/pie_trigger_none</item>
         <item>@string/pie_trigger_small</item>
         <item>@string/pie_trigger_normal</item>
         <item>@string/pie_trigger_big</item>
         <item>@string/pie_trigger_huge</item>
     </string-array>
     <string-array name="values_pie_trigger" translatable="false">
+        <item>0.0</item>
         <item>0.5</item>
         <item>1.0</item>
         <item>2.0</item>
