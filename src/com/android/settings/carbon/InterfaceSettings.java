@@ -30,6 +30,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.app.Dialog;
 import android.app.DialogFragment;
+import android.app.INotificationManager;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnMultiChoiceClickListener;
@@ -99,6 +100,10 @@ public class InterfaceSettings extends SettingsPreferenceFragment
     private static final String PREF_USE_ALT_RESOLVER = "use_alt_resolver";
     private static final String KEY_POWER_BUTTON_TORCH = "power_button_torch";
     private static final String KEY_BACKGROUND_PREF = "lockscreen_background";
+    private static final String KEY_HARDWARE_KEYS = "hardware_keys";
+    private static final String KEY_HALO_STATE = "halo_state";
+    private static final String KEY_HALO_HIDE = "halo_hide";
+    private static final String KEY_HALO_REVERSED = "halo_reversed";
 
     Preference mCustomLabel;
     Preference mRamBar;
@@ -113,13 +118,17 @@ public class InterfaceSettings extends SettingsPreferenceFragment
     CheckBoxPreference mUseAltResolver;
     CheckBoxPreference mPowerButtonTorch;
     ListPreference mCustomBackground;
+    private ListPreference mHaloState;
+    private CheckBoxPreference mHaloHide;
+    private CheckBoxPreference mHaloReversed;
 
     private File mWallpaperImage;
     private File mWallpaperTemporary;
 
-
     String mCustomLabelText = null;
 
+    private static ContentResolver mContentResolver;
+    private INotificationManager mNotificationManager;
     private boolean isCrtOffChecked = false;
 
     @Override
@@ -159,6 +168,21 @@ public class InterfaceSettings extends SettingsPreferenceFragment
 
         mRamBar = findPreference(KEY_RECENTS_RAM_BAR);
         updateRamBar();
+
+        mNotificationManager = INotificationManager.Stub.asInterface(
+                ServiceManager.getService(Context.NOTIFICATION_SERVICE));
+
+        mHaloState = (ListPreference) prefSet.findPreference(KEY_HALO_STATE);
+        mHaloState.setValue(String.valueOf((isHaloPolicyBlack() ? "1" : "0")));
+        mHaloState.setOnPreferenceChangeListener(this);
+
+        mHaloHide = (CheckBoxPreference) prefSet.findPreference(KEY_HALO_HIDE);
+        mHaloHide.setChecked(Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.HALO_HIDE, 0) == 1);
+
+        mHaloReversed = (CheckBoxPreference) prefSet.findPreference(KEY_HALO_REVERSED);
+        mHaloReversed.setChecked(Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.HALO_REVERSED, 1) == 1);
 
         mHideExtras = (CheckBoxPreference) findPreference(PREF_HIDE_EXTRAS);
         mHideExtras.setChecked(Settings.System.getBoolean(cr,
@@ -260,6 +284,15 @@ public class InterfaceSettings extends SettingsPreferenceFragment
                 .commit();
     }
 
+    private boolean isHaloPolicyBlack() {
+        try {
+            return mNotificationManager.isHaloPolicyBlack();
+        } catch (android.os.RemoteException ex) {
+                // System dead
+        }
+        return true;
+    }
+
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mCustomLabel) {
@@ -306,6 +339,14 @@ public class InterfaceSettings extends SettingsPreferenceFragment
                     Settings.System.NOTIFICATION_SHOW_WIFI_SSID,
                     mShowWifiName.isChecked() ? 1 : 0);
             return true;
+        } else if (preference == mHaloHide) {
+            Settings.System.putInt(mContext.getContentResolver(),
+                    Settings.System.HALO_HIDE,
+                    mHaloHide.isChecked() ? 1 : 0);  
+        } else if (preference == mHaloReversed) {
+            Settings.System.putInt(mContext.getContentResolver(),
+                    Settings.System.HALO_REVERSED,
+                    mHaloReversed.isChecked() ? 1 : 0);
         } else if (preference == mUseAltResolver) {
             Settings.System.putBoolean(getActivity().getContentResolver(),
                     Settings.System.ACTIVITY_RESOLVER_USE_ALT,
@@ -383,6 +424,14 @@ public class InterfaceSettings extends SettingsPreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.USER_UI_MODE, Integer.parseInt((String) newValue));
             Helpers.restartSystemUI();
+            return true;
+        } else if (preference == mHaloState) {
+            boolean state = Integer.valueOf((String) newValue) == 1;
+            try {
+                mNotificationManager.setHaloPolicyBlack(state);
+            } catch (android.os.RemoteException ex) {
+                // System dead
+            }
             return true;
         } else if (preference == mLowBatteryWarning) {
             int lowBatteryWarning = Integer.valueOf((String) newValue);
