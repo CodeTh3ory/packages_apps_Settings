@@ -32,6 +32,7 @@ import android.content.Context;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.INotificationManager;
+import android.os.ServiceManager;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnMultiChoiceClickListener;
